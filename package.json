@@ -1,10 +1,10 @@
 {
   "name": "weekend_HW",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,16 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "webpack": "^4.40.2"
-  }
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelA26/W7-weekend-HW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelA26/W7-weekend-HW/issues"
+  },
+  "homepage": "https://github.com/MichaelA26/W7-weekend-HW#readme",
+  "description": ""
 }
