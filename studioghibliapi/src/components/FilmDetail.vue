@@ -2,7 +2,7 @@
   <article v-if="film">
     <p>Title: {{ film.title }}</p>
     <p>Description: {{ film.description }}</p>
-    <p>Producer: {{ film.producer }}</p>
+    <p>Director: {{ film.director }}</p>
     <p>Release Year: {{ film.release_date }}</p>
   </article>
 </template>
@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+
 
 </style>
